@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>应用商城</title>
+		<link rel="shortcuticon" href="/favicon.ico" type="image/x-icon" />
+		<!-- 引入压缩之后的css文件 -->
+		<!-- <link href="css/mui.min.css" rel="stylesheet" /> -->
+
+		<!-- 引入没有压缩的css文件 -->
+		<link rel="stylesheet" href="./css/mui.css">
+		<!-- 引入阿里的字体图标 -->
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_1578621_15u24kz2j52.css">
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_1578341_l63t45i1bcr.css">
+		<style>
+			.wrapper{
+				padding: 25px;
+			}
+			.box{
+				display: flex;
+				width: 200px;
+				height: 30px;
+				margin-top: 10px;
+				margin-left: 10px;
+			}
+			.box1{
+				width: 40px;
+				height: 30px;
+			}
+			.box2{
+				width: 150px;
+				height: 30px;
+			}
+			.login{
+				font-size: 18px;
+				margin-top: 20px;
+				margin-bottom: 10px;
+			}
+			.top{
+				margin-top: 60px;
+			}
+		</style>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+
+		<style>
+			.mui-bar-tab .mui-tab-item.mui-active {
+				color: pink;
+			}
+			.mui-font-size{
+				font-size: 16px;
+			}
+			.mui-table-size{
+				width: 120px;
+				height: 50px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div>
+			<header id="header" class="mui-bar mui-bar-nav">
+				<div class="mui-input-row mui-search">
+					<input type="search" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</header>
+		</div>
+		<div class="mui-card top">
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="images/touxiang.jpg">
+
+						<div class="mui-media-body">
+							<h4>shopping</h4>
+							<div> <img src="images/vip1%20.png" alt="#"></div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+
+		<ul class="mui-table-view mui-grid-view mui-grid-3">
+			<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+				<a href="jifen.html">
+					<img src="images/jifen.jpg">
+					<div class="mui-media-body">积分</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+				<a href="pinglun.html">
+					<img src="images/pinglun.jpg">
+					<div class="mui-media-body">评论</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+				<a href="libao.html">
+					<img src="images/libao.jpg">
+					<div class="mui-media-body">礼包</div>
+				</a>
+			</li>
+		</ul>
+
+
+
+		<ul class="mui-table-view">
+			<li class="mui-table-view-cell mui-media">
+				<a class="mui-navigate-right" href="srtting.html">
+					<div class="box">
+						<div class="box1">
+							<img src="images/shezhi.jpg">
+						</div>
+						<div class="box2">
+							设置
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a class="mui-navigate-right" href="personaldata.html">
+					<div class="box">
+						<div class="box1">
+							<img src="images/wode.jpg">
+						</div>
+						<div class="box2">
+							我的资料
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a class="mui-navigate-right" href="password.html">
+					<div class="box">
+						<div class="box1">
+							<img src="images/mima.jpg">
+						</div>
+						<div class="box2">
+							修改密码
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a class="mui-navigate-right" href="shoucang.html">
+					<div class="box">
+						<div class="box1">
+							<img src="images/shoucang.jpg">
+						</div>
+						<div class="box2">
+							我的收藏
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a class="mui-navigate-right" href="anzhuang.html">
+					<div class="box">
+						<div class="box1">
+							<img src="images/anzhuang.jpg">
+						</div>
+						<div class="box2">
+							安装记录
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+				<div align="center">
+					<a href="login.html">
+						<button type="button" class="login">退出登录</button>
+					</a>
+				</div>
+			</li>
+		</ul>
+
+		<nav class="mui-bar mui-bar-tab">
+		
+		<nav class="mui-bar mui-bar-tab mui-font-size">
+			<a class="mui-tab-item " href="./index.html">
+				<div class="iconfont icon-shouye2"></div>
+				<div class="mui-tab-label">首页</div>
+			</a>
+			<a class="mui-tab-item" href="./ruanjian.html">
+				<div class="iconfont icon-fenlei"></div>
+				<div class="mui-tab-label">软件</div>
+			</a>
+			<a class="mui-tab-item" href="./bangdan.html">
+				<div class="iconfont icon-paihangbang"></div>
+				<div class="mui-tab-label">榜单</div>
+			</a>
+			<a class="mui-tab-item mui-active">
+				<div class="iconfont icon-milu"></div>
+				<div class="mui-tab-label">我的</div>
+			</a>
+		</nav>
+	</body>
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui("body").on("tap", "a", function() {
+			document.location.href = this.href;
+		})
+	</script>
+</html>
